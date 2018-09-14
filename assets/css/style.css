@@ -39,7 +39,7 @@ body{background-color: #f5f5f5}
 .text{position:absolute;top:25%;right:30%;color:white;margin-left:12%;}
 .text-en{position:absolute;top:25%;left:30%;color:white;margin-right:12%;text-align:left!important;direction:ltr!important;}
 
-.sliderBox{height:80vh;width:100%;position:relative;}
+.sliderBox{min-height:520px;width:100%;position:relative;}
 
 .cardHolder{position:relative;width:80%;min-width:912px;height:100%;margin-right:auto;margin-left:auto;}
 
@@ -75,7 +75,7 @@ body{background-color: #f5f5f5}
 .image-holder{position:absolute;width:350px;height:100%;left:0;}
 
 .slant{top: 0;
-    left:280px;
+    left:283px;
     z-index: 1;
     position: absolute;
     border-style: solid;
@@ -84,7 +84,7 @@ body{background-color: #f5f5f5}
 
 .contact-content{width:95%;margin-right:auto;margin-left:auto;margin-top:5%;}
 
-.section{position:relative;margin-top:8.5rem;color:#616161!important;}
+.section{position:relative;margin-top:9.5rem;color:#616161!important;}
 
 .guidLine{width:5px;margin-left:-3px;background-color:#3557ff;height:50%;position:absolute;left:50%;top:8.7rem;border-radius:2px;}
 .skill-line{height:58%!important;}
@@ -156,5 +156,5 @@ body{background-color: #f5f5f5}
 }
 
 @media screen and (max-width: 1016px){
-  .cardHolder{min-width:456px;}
+  .cardHolder{min-width:456px!important;}
 }

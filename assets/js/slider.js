@@ -4,7 +4,7 @@ var width = $(window).width();
 
 $(window).resize(function() {
   width = $(window).width();
-  console.log(width);
+  // console.log(width);
   setCards()
 });
 
