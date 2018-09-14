@@ -56,9 +56,9 @@ body{background-color: #f5f5f5}
 /* #6e117c */
 .font-en{font-family:sans-serif!important;direction: ltr;}
 
-.number{position:fixed;top:27%;min-height:30px;background-color:transparent;color:white;right:4rem;display:none;opacity:0.0;transition:all 400ms}
+.number{margin-right:50px;margin-top:-25px;min-height:30px;background-color:transparent;color:white;display:none;opacity:0.0;transition:all 500ms}
 
-.email{position:fixed;top:48%;min-height:30px;background-color:transparent;color:white;right:4rem;display:none;opacity:0.0;transition:all 400ms}
+.email{margin-right:50px;margin-top:-25px;min-height:30px;background-color:transparent;color:white;display:none;opacity:0.0;transition:all 500ms}
 
 .unselectable {
     -webkit-touch-callout: none;

@@ -32,8 +32,10 @@ function copyToClipboard(element){
       $temp.remove();
 }
 
-function toggleElem(element){
-  if ($(element).css("opacity") == '1') {
-    $(element).css({"opacity":"0","display":"block"})
-  }else{$(element).css({"opacity":"1","display":"block"})}
+function toggleElem(element,e){
+  if(e.target.className == 'icon'){
+    if ($(element).css("opacity") == '1') {
+      $(element).css({"opacity":"0","display":"block"})
+    }else{$(element).css({"opacity":"1","display":"block"})}
+  }
 }
