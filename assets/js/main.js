@@ -2,10 +2,7 @@ $('.icon , .section').css({"opacity":"0"})
 
 $('.fullScreen1').on('load', function() {
 
-  let imageHeight = $(".fullScreen1").height();
-  let iconsHeight = imageHeight/2;
-  let marginTop = imageHeight/4;
-  $("ul.icons").css({"height":iconsHeight,"top":marginTop})
+    setIcons()
 
     $(".loading").hide(function(){
       $('.icon , .section').css({"opacity":"1"})
@@ -17,6 +14,12 @@ $('.fullScreen1').on('load', function() {
     });
 });
 
+function setIcons() {
+  let imageHeight = $(".fullScreen1").height();
+  let iconsHeight = imageHeight/2;
+  let marginTop = imageHeight/4;
+  $("ul.icons").css({"height":iconsHeight,"top":marginTop})
+}
 $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();
 });
