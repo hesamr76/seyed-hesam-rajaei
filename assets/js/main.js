@@ -33,6 +33,8 @@ function copyToClipboard(element){
 }
 
 function toggleElem(element,e){
+  
+  
   if(e.target.className == 'icon'){
     if ($(element).css("opacity") == '1') {
       $(element).css({"opacity":"0","display":"block"})
